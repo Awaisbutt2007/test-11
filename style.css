@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.container {
+    background-image: url(88752558-exuberant-girl-and-boy-working-together.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+}
+
+.navbar {
+    background-color: gray;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    padding-left: 50px;
+    color: rgb(233, 227, 227);
+    font-size: 18px;
+}
+
+.nav-end {
+    background-color: gray;
+    height: 350px;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+}
+
+.circle-1 {
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(247, 233, 233);
+    margin: 6px;
+}
+
+.circle-2 {
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(86, 74, 74);
+    margin: 6px;
+}
+
+.circle-3 {
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(247, 233, 233);
+    margin: 6px;
+}
+
+.boxes {
+    display: flex;
+    margin-top: 50px;
+}
+
+.box-1 {
+    height: 35vh;
+    width: 70vw;
+    background-color: rgb(8, 8, 70);
+    border-radius: 7px;
+    margin-left: 15px;
+}
+
+.box-2 {
+    height: 35vh;
+    width: 25vw;
+    background-color: rgb(243, 169, 194);
+    margin-left: 40px;
+    border-radius: 7px;
+}
+
+.box-1 h3 {
+    color: orange;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.box-1 h4 {
+    color: rgb(130, 120, 120);
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.box-1 p {
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.box-2 h3 {
+    padding-top: 50px;
+    padding-left: 20px;
+    color: white;
+}
+
+.box-2 p {
+    padding-left: 20px;
+    width: 77%;
+    color: white;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:600px) {
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .container {
+        height: 250px;
+    }
+
+    .navbar {
+        height: 50px;
+    }
+
+
+    .navbar li {
+        padding-left: 20px;
+        font-size: 12px;
+    }
+
+    .nav-end {
+        margin-top: 0px;
+        height: 600px;
+    }
+
+
+    .circle-1 {
+        margin-top: 10px;
+    }
+
+    .circle-2 {
+        margin-top: 10px;
+    }
+
+    .circle-3 {
+        margin-top: 10px;
+    }
+
+    .boxes {
+        display: flex;
+      flex-wrap: wrap;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+
+    .box-1 {
+        height: 35vh;
+        width: 90vw;
+    }
+
+    .box-2 {
+        width: 60vw;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    .box-1 h3 {
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .box-1 h4 {
+        padding-top: 5px;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
+    .box-1 p {
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .box-2 h3 {
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .box-2 p {
+        padding-left: 10px;
+        width: 77%;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+}
